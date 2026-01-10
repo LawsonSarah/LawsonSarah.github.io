@@ -53,7 +53,7 @@ footer {
     margin: 0 auto;       /* auto left/right margins center it */
 }
 
-.4x4grid {
+.grid {
     width: 25%;
     max-width: 300px;   /* optional, stops it getting huge */
     height: auto;       /* keeps proportions correct */
