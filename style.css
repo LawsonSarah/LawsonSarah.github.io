@@ -54,7 +54,7 @@ footer {
 }
 
 .4x4grid {
-    width: 45%;
+    width: 25%;
     max-width: 300px;   /* optional, stops it getting huge */
     height: auto;       /* keeps proportions correct */
     display: block;       /* makes the image act like a block element */
