@@ -53,11 +53,15 @@ footer {
     margin: 0 auto;       /* auto left/right margins center it */
 }
 
-.grid {
-    width: 25%;
-    max-width: 300px;   /* optional, stops it getting huge */
-    height: auto;       /* keeps proportions correct */
-    display: block;       /* makes the image act like a block element */
-    margin: 0 auto;       /* auto left/right margins center it */
+.photo-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 across */
+  gap: 16px;
+  max-width: 100%;
 }
 
+.photo-grid img {
+  width: 100%;      /* forces shrinking */
+  height: auto;
+  object-fit: cover;
+}
