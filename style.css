@@ -49,5 +49,7 @@ footer {
     width: 33%;
     max-width: 300px;   /* optional, stops it getting huge */
     height: auto;       /* keeps proportions correct */
+    display: block;       /* makes the image act like a block element */
+    margin: 0 auto;       /* auto left/right margins center it */
 }
 
