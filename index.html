@@ -20,16 +20,33 @@
     </header>
 
     <main>
-        <img src="images/portrait_Sarah.png" alt="Portrait of Sarah" class="portrait">
+        <style>
+  .side-by-side {
+    display: flex;           /* arrange children in a row */
+    align-items: flex-start; /* vertically align text to top of image */
+    gap: 20px;               /* space between image and text */
+  }
 
-        <section id="home">
-           <!-- <h2>Home</h2>-->
-            <p>I am a PhD student at the University of Queensland, Brisbane, Australia. My primary area of interest is combinatorics. 
-                I have conducted research on hypergraph centrality, and my current PhD research focuses on the existence of Heffter arrays. 
-                I have a particular interest in relative Heffter arrays and their structure. </p>
+  .side-by-side img {
+    width: 200px;            /* adjust as needed */
+    height: auto;
+    border-radius: 10px;     /* optional */
+  }
 
-            
-        </section>
+  .side-by-side p {
+    margin: 0;               /* remove extra paragraph spacing */
+  }
+</style>
+
+<div class="side-by-side">
+  <img src="images/portrait_Sarah.png" alt="Portrait of Sarah" class="portrait">
+
+  <section id="home">
+    <p>I am a PhD student at the University of Queensland, Brisbane, Australia. My primary area of interest is combinatorics. 
+      I have conducted research on hypergraph centrality, and my current PhD research focuses on the existence of Heffter arrays. 
+      I have a particular interest in relative Heffter arrays and their structure.</p>
+  </section>
+</div>
 
 
 
